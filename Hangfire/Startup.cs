@@ -15,6 +15,7 @@ namespace Hangfire
             app.UseHangfireDashboard();
             //Serverı aktif hale getiriyoruz.
             app.UseHangfireServer();
+
         }
     }
 }
